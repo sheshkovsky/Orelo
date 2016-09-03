@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267F1BF0B19691DEDD3C48C8 /* Pods_Orelo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062D6EFD188C932DEFF8B02B /* Pods_Orelo.framework */; };
+		973621DA1D7499060006FA5C /* VoiceDetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973621D91D7499060006FA5C /* VoiceDetialViewController.swift */; };
+		973889901D762BBA00B5A1BB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9738898F1D762BBA00B5A1BB /* MainTabBarController.swift */; };
+		977B0D9A1D622AC0002B2713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B0D991D622AC0002B2713 /* AppDelegate.swift */; };
+		977B0D9E1D622AC0002B2713 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B0D9D1D622AC0002B2713 /* ProfileViewController.swift */; };
+		977B0DA11D622AC0002B2713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977B0D9F1D622AC0002B2713 /* Main.storyboard */; };
+		977B0DA31D622AC0002B2713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977B0DA21D622AC0002B2713 /* Assets.xcassets */; };
+		977B0DA61D622AC0002B2713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977B0DA41D622AC0002B2713 /* LaunchScreen.storyboard */; };
+		977B0DB21D624C5D002B2713 /* VoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B0DB11D624C5D002B2713 /* VoiceTableViewCell.swift */; };
+		977B0DB41D624C82002B2713 /* VoiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B0DB31D624C82002B2713 /* VoiceTableViewController.swift */; };
+		977B0DB81D625F12002B2713 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977B0DB71D625F12002B2713 /* MapKit.framework */; };
+		978635441D7B2F2600848AB4 /* Voice+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978635431D7B2F2600848AB4 /* Voice+CoreDataProperties.swift */; };
+		978635461D7B2F5000848AB4 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978635451D7B2F5000848AB4 /* RecordViewController.swift */; };
+		979FEBC11D6CA30D007CF538 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 979FEBC01D6CA30D007CF538 /* GoogleService-Info.plist */; };
+		979FEBC31D6CA656007CF538 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979FEBC21D6CA656007CF538 /* LoginViewController.swift */; };
+		97ACEC0F1D6D948F0016FB75 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97ACEC0D1D6D948F0016FB75 /* Model.xcdatamodeld */; };
+		97ACEC151D6D96870016FB75 /* Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ACEC131D6D96870016FB75 /* Voice.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		062D6EFD188C932DEFF8B02B /* Pods_Orelo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orelo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973621D91D7499060006FA5C /* VoiceDetialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceDetialViewController.swift; sourceTree = "<group>"; };
+		9738898F1D762BBA00B5A1BB /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		977B0D961D622AC0002B2713 /* Orelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		977B0D991D622AC0002B2713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		977B0D9D1D622AC0002B2713 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		977B0DA01D622AC0002B2713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		977B0DA21D622AC0002B2713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		977B0DA51D622AC0002B2713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		977B0DA71D622AC0002B2713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977B0DB11D624C5D002B2713 /* VoiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceTableViewCell.swift; sourceTree = "<group>"; };
+		977B0DB31D624C82002B2713 /* VoiceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceTableViewController.swift; sourceTree = "<group>"; };
+		977B0DB71D625F12002B2713 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		978635431D7B2F2600848AB4 /* Voice+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Voice+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		978635451D7B2F5000848AB4 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		979FEBC01D6CA30D007CF538 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		979FEBC21D6CA656007CF538 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		979FEBC51D6CA8F2007CF538 /* Orelo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orelo-Bridging-Header.h"; sourceTree = "<group>"; };
+		97ACEC0E1D6D948F0016FB75 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		97ACEC131D6D96870016FB75 /* Voice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voice.swift; sourceTree = "<group>"; };
+		B901C213826BBA20200B8D86 /* Pods-Orelo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orelo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orelo/Pods-Orelo.release.xcconfig"; sourceTree = "<group>"; };
+		E5DDD1D179D90F23D7CB1FB8 /* Pods-Orelo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orelo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orelo/Pods-Orelo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		977B0D931D622AC0002B2713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977B0DB81D625F12002B2713 /* MapKit.framework in Frameworks */,
+				267F1BF0B19691DEDD3C48C8 /* Pods_Orelo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		977B0D8D1D622AC0002B2713 = {
+			isa = PBXGroup;
+			children = (
+				977B0DB71D625F12002B2713 /* MapKit.framework */,
+				977B0D981D622AC0002B2713 /* Orelo */,
+				977B0D971D622AC0002B2713 /* Products */,
+				FB1573C81F7CD345D197C6F1 /* Pods */,
+				E9B3BDDAE4137852AE590354 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		977B0D971D622AC0002B2713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				977B0D961D622AC0002B2713 /* Orelo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		977B0D981D622AC0002B2713 /* Orelo */ = {
+			isa = PBXGroup;
+			children = (
+				97ACEC161D6D96BB0016FB75 /* CoreData */,
+				977B0D9F1D622AC0002B2713 /* Main.storyboard */,
+				9738898F1D762BBA00B5A1BB /* MainTabBarController.swift */,
+				979FEBC21D6CA656007CF538 /* LoginViewController.swift */,
+				977B0DB31D624C82002B2713 /* VoiceTableViewController.swift */,
+				977B0DB11D624C5D002B2713 /* VoiceTableViewCell.swift */,
+				973621D91D7499060006FA5C /* VoiceDetialViewController.swift */,
+				978635451D7B2F5000848AB4 /* RecordViewController.swift */,
+				977B0D9D1D622AC0002B2713 /* ProfileViewController.swift */,
+				977B0D991D622AC0002B2713 /* AppDelegate.swift */,
+				977B0DA21D622AC0002B2713 /* Assets.xcassets */,
+				977B0DA41D622AC0002B2713 /* LaunchScreen.storyboard */,
+				977B0DA71D622AC0002B2713 /* Info.plist */,
+				979FEBC01D6CA30D007CF538 /* GoogleService-Info.plist */,
+				979FEBC51D6CA8F2007CF538 /* Orelo-Bridging-Header.h */,
+			);
+			path = Orelo;
+			sourceTree = "<group>";
+		};
+		97ACEC161D6D96BB0016FB75 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				978635431D7B2F2600848AB4 /* Voice+CoreDataProperties.swift */,
+				97ACEC131D6D96870016FB75 /* Voice.swift */,
+				97ACEC0D1D6D948F0016FB75 /* Model.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		E9B3BDDAE4137852AE590354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				062D6EFD188C932DEFF8B02B /* Pods_Orelo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB1573C81F7CD345D197C6F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5DDD1D179D90F23D7CB1FB8 /* Pods-Orelo.debug.xcconfig */,
+				B901C213826BBA20200B8D86 /* Pods-Orelo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		977B0D951D622AC0002B2713 /* Orelo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977B0DAA1D622AC0002B2713 /* Build configuration list for PBXNativeTarget "Orelo" */;
+			buildPhases = (
+				D7ABA9EBC1FE22F12AFDD029 /* [CP] Check Pods Manifest.lock */,
+				977B0D921D622AC0002B2713 /* Sources */,
+				977B0D931D622AC0002B2713 /* Frameworks */,
+				977B0D941D622AC0002B2713 /* Resources */,
+				0E2550892630B17420D6B240 /* [CP] Embed Pods Frameworks */,
+				7D144D6E949B231253F8BCD5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orelo;
+			productName = Orelo;
+			productReference = 977B0D961D622AC0002B2713 /* Orelo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		977B0D8E1D622AC0002B2713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ali Gholami";
+				TargetAttributes = {
+					977B0D951D622AC0002B2713 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 977B0D911D622AC0002B2713 /* Build configuration list for PBXProject "Orelo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 977B0D8D1D622AC0002B2713;
+			productRefGroup = 977B0D971D622AC0002B2713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				977B0D951D622AC0002B2713 /* Orelo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		977B0D941D622AC0002B2713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977B0DA61D622AC0002B2713 /* LaunchScreen.storyboard in Resources */,
+				977B0DA31D622AC0002B2713 /* Assets.xcassets in Resources */,
+				979FEBC11D6CA30D007CF538 /* GoogleService-Info.plist in Resources */,
+				977B0DA11D622AC0002B2713 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2550892630B17420D6B240 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orelo/Pods-Orelo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D144D6E949B231253F8BCD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orelo/Pods-Orelo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7ABA9EBC1FE22F12AFDD029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		977B0D921D622AC0002B2713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979FEBC31D6CA656007CF538 /* LoginViewController.swift in Sources */,
+				977B0DB41D624C82002B2713 /* VoiceTableViewController.swift in Sources */,
+				973889901D762BBA00B5A1BB /* MainTabBarController.swift in Sources */,
+				97ACEC0F1D6D948F0016FB75 /* Model.xcdatamodeld in Sources */,
+				97ACEC151D6D96870016FB75 /* Voice.swift in Sources */,
+				978635461D7B2F5000848AB4 /* RecordViewController.swift in Sources */,
+				977B0DB21D624C5D002B2713 /* VoiceTableViewCell.swift in Sources */,
+				977B0D9E1D622AC0002B2713 /* ProfileViewController.swift in Sources */,
+				973621DA1D7499060006FA5C /* VoiceDetialViewController.swift in Sources */,
+				978635441D7B2F2600848AB4 /* Voice+CoreDataProperties.swift in Sources */,
+				977B0D9A1D622AC0002B2713 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		977B0D9F1D622AC0002B2713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977B0DA01D622AC0002B2713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		977B0DA41D622AC0002B2713 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977B0DA51D622AC0002B2713 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		977B0DA81D622AC0002B2713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		977B0DA91D622AC0002B2713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		977B0DAB1D622AC0002B2713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DDD1D179D90F23D7CB1FB8 /* Pods-Orelo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Orelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Gholami.Orelo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Orelo/Orelo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		977B0DAC1D622AC0002B2713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B901C213826BBA20200B8D86 /* Pods-Orelo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Orelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Gholami.Orelo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Orelo/Orelo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		977B0D911D622AC0002B2713 /* Build configuration list for PBXProject "Orelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977B0DA81D622AC0002B2713 /* Debug */,
+				977B0DA91D622AC0002B2713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		977B0DAA1D622AC0002B2713 /* Build configuration list for PBXNativeTarget "Orelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977B0DAB1D622AC0002B2713 /* Debug */,
+				977B0DAC1D622AC0002B2713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97ACEC0D1D6D948F0016FB75 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97ACEC0E1D6D948F0016FB75 /* Model.xcdatamodel */,
+			);
+			currentVersion = 97ACEC0E1D6D948F0016FB75 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 977B0D8E1D622AC0002B2713 /* Project object */;
+}
