@@ -42,6 +42,14 @@ class MainTabBarController: UITabBarController {
         // Dispose of any resources that can be recreated.
     }
     
+    // Always Portrait
+    override func shouldAutorotate() -> Bool {
+        return true
+    }
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
+    
 
     /*
     // MARK: - Navigation

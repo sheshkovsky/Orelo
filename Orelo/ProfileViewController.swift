@@ -22,8 +22,7 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+
         showEmail()
         showUserProfileImage()
     }
@@ -46,7 +45,6 @@ class ProfileViewController: UIViewController {
             // print("\(user.photoURL)")
             let sendImage = UIImage(data: data!)
             profileImage.image = maskRoundedImage(sendImage!, radius: 50)
-
         }
     }
     

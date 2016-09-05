@@ -15,7 +15,6 @@ import FirebaseAuth
 
 class RecordViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, AVAudioPlayerDelegate, AVAudioRecorderDelegate
 {
-    
     // MARK: Properties
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var recordButton: UIButton!
@@ -78,10 +77,6 @@ class RecordViewController: UIViewController, MKMapViewDelegate, CLLocationManag
         
         playButton.enabled = false
         saveButton.enabled = false
-    }
-    
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
     }
     
     // Update Date Label

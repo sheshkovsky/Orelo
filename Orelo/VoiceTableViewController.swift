@@ -30,7 +30,6 @@ class VoiceTableViewController: UITableViewController, NSFetchedResultsControlle
         return frc
     }()
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

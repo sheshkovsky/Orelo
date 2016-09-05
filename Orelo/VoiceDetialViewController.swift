@@ -32,6 +32,7 @@ class VoiceDetialViewController: UIViewController, AVAudioPlayerDelegate, MKMapV
     @IBOutlet weak var timerLabel: UILabel!
     
     @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var shareButton: UIButton!
     
     var voice: Voice?
     
@@ -67,8 +68,6 @@ class VoiceDetialViewController: UIViewController, AVAudioPlayerDelegate, MKMapV
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
     
     func showVoiceWithPin() {
         let pinLocation = self.voiceLocation
@@ -168,12 +167,14 @@ class VoiceDetialViewController: UIViewController, AVAudioPlayerDelegate, MKMapV
     
     func startPlaying() {
         startTimer()
+        shareButton.enabled = false
         soundPlayer.play()
         playButton.setImage(UIImage(named: "pauseButton"), forState: .Normal)
     }
     
     func pausePlaying() {
         soundPlayer.pause()
+        shareButton.enabled = true
         playerTimer.invalidate()
         playButton.setImage(UIImage(named: "playButton"), forState: .Normal)
     }
@@ -203,6 +204,7 @@ class VoiceDetialViewController: UIViewController, AVAudioPlayerDelegate, MKMapV
     func audioPlayerDidFinishPlaying(player: AVAudioPlayer, successfully flag: Bool) {
         playButton.setImage(UIImage(named: "playButton"), forState: .Normal)
         resetTimerLabel()
+        shareButton.enabled = true
     }
 
     func updateTimerLabel() {
