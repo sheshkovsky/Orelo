@@ -1,5 +1,9 @@
 # Orelo
-A "Baby" Social network for recording &amp; sharing ambient sounds
+![Orelo_logo](https://github.com/sheshkovsky/Orelo/blob/master/orelo_logo.png)
+
+A "Baby" Social network for recording &amp; sharing ambient sounds.
+
+Checkout presentation slides by clicking [here](https://github.com/sheshkovsky/Orelo/blob/master/Orelo.pdf).
 
 
 ## Install
